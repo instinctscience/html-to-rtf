@@ -7,7 +7,14 @@
   },
   "description": "Convert html to rtf format in the server",
   "readmeFilename": "README.md",
-  "keywords": ["html", "rtf", "convert", "server", "node", "javascript"],
+  "keywords": [
+    "html",
+    "rtf",
+    "convert",
+    "server",
+    "node",
+    "javascript"
+  ],
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
@@ -18,13 +25,17 @@
     "gulp": "^3.9.1",
     "gulp-mocha": "^4.3.1",
     "mocha": "^3.4.2",
-    "should": "^11.2.1"
+    "should": "^11.2.1",
+    "vite": "5.1.4",
+    "vite-plugin-node-polyfills": "0.21.0"
   },
   "scripts": {
+    "build": "vite build",
     "test": "gulp tests"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/oziresrds/html-to-rtf.git"
-  }
+  },
+  "type": "module"
 }
