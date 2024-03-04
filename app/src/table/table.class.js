@@ -28,4 +28,4 @@ class Table {
     return cellGroup;
   }
 }
-module.exports = Table;
+export default Table;
