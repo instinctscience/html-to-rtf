@@ -1,5 +1,5 @@
-const should                  = require('should');
-const AllowedStyleProperties  = require('./allowed-style-properties.class');
+import should from 'should';
+import AllowedStyleProperties from './allowed-style-properties.class.js';
 
 describe('AllowedStylePropertiesTest', () => {
   it('tagIsAllowed()', () => {

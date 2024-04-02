@@ -1,5 +1,5 @@
-const should    = require('should');
-const MyString  = require('./my-string.class');
+import should from 'should';
+import MyString from './my-string.class.js';
 
 describe('MyStringTest', () => {
   describe('convertOneCharInHexToDec()', () => {

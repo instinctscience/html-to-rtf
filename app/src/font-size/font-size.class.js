@@ -13,4 +13,4 @@ class FontSize {
     return FONT_SIZE_RTF_REFERENCE + Math.trunc(parseFloat(valueInPixel) * ONE_PIXEL_IN_POINT);
   }
 }
-module.exports = FontSize;
+export default FontSize;
