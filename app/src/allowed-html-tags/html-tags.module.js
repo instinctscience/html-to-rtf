@@ -1,4 +1,4 @@
-export default [
+module.exports = [
    { opening: 'b',          openingRtf: '{\\b',                closing: '/b',          closingRtf: '}' },
    { opening: 'br',         openingRtf: '\\line',              closing: 'br/',         closingRtf: '\\line' },
    { opening: 'center',     openingRtf: '{\\pard\\qr',         closing: '/center',     closingRtf: '\\par}' },

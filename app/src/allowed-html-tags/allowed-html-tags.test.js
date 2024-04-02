@@ -1,5 +1,5 @@
-import should from 'should';
-import AllowedHtmlTags  from './allowed-html-tags.class.js';
+const should          = require('should');
+const AllowedHtmlTags = require('./allowed-html-tags.class');
 
 describe('AllowedHtmlTagsTest', () => {
   it('getRtfReferenceTag', () => {

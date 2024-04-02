@@ -1,5 +1,5 @@
-import should from 'should';
-import Alignment from './alignment.class.js';
+const should    = require('should');
+const Alignment = require('./alignment.class');
 
 describe('AlignmentTest', function() {
   describe('getRtfAlignmentReference()', () => {

@@ -1,3 +1,3 @@
-import htmlToRtf from './app/src/rtf/rtf.class.js';
+const htmlToRtf = require('./app/src/rtf/rtf.class');
 // htmlToRtf.saveInFolderFiles(rtf.convertHtmlToRtf(htmlOfExample));
-export default new htmlToRtf();
+module.exports = new htmlToRtf();

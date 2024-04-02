@@ -1,5 +1,5 @@
-import should from 'should';
-import Table from './table.class.js';
+const should  = require('should');
+const Table   = require('./table.class');
 
 describe('TableTest', () => {
   it('setAmountOfColumns()', () => {

@@ -1,5 +1,5 @@
-import should from 'should';
-import Color from './color.class.js';
+const should  = require('should');
+const Color   = require('./color.class');
 
 describe('ColorTest', () => {
   describe('getRtfReferenceColor()', () => {
@@ -40,6 +40,7 @@ describe('ColorTest', () => {
     it('Should return rtf reference color', () => {
       should(Color.getColorInColorTable(['255', '188', '0'])).be.equal('\\cf1');
       should(Color.getColorInColorTable(['238', '238', '238'])).be.equal('\\cf2');
+      Color.co
     });
   });
 
@@ -66,7 +67,7 @@ describe('ColorTest', () => {
     });
   });
 
-  describe('Color.getRtfReferenceColorInColorTable()', () => {
+  describe('getRtfReferenceColorInColorTable()', () => {
     before(() => {
       Color.cleanColorTable();
       Color.addColorInColorTable(['255', '0', '0']);

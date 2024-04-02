@@ -1,9 +1,9 @@
-import cheerio from "cheerio";
-import Style from "../style/style.class.js";
-import AllowedHtmlTags from "../allowed-html-tags/allowed-html-tags.class.js";
-import Table from "../table/table.class.js";
-import MyString from "../string/my-string.class.js";
-import juice from "juice";
+const cheerio = require("cheerio");
+const Style = require("../style/style.class");
+const AllowedHtmlTags = require("../allowed-html-tags/allowed-html-tags.class");
+const Table = require("../table/table.class");
+const MyString = require("../string/my-string.class");
+const juice = require("juice");
 
 class Rtf {
   constructor() {
@@ -140,4 +140,4 @@ class Rtf {
     this.rtfContentReferences = [];
   }
 }
-export default Rtf;
+module.exports = Rtf;

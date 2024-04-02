@@ -1,5 +1,5 @@
-import should from 'should';
-import FontSize from './font-size.class.js';
+const should    = require('should');
+const FontSize  = require('./font-size.class');
 
 describe('FontSizeTest', () => {
   describe('getFontSizeReferenceInPx()', () => {

@@ -1,6 +1,6 @@
 const RTF_COLOR_TABLE_OPENING = '{\\colortbl ;';
 const RTF_COLOR_TABLE_CLOSING = '}';
-import MyString from '../string/my-string.class.js';
+const MyString                = require('../string/my-string.class');
 var colorTable = [{ amount: 0 }, []];
 
 class Color {
@@ -82,4 +82,4 @@ class Color {
     return colorTable;
   }
 }
-export default Color;
+module.exports = Color;

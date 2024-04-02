@@ -53,4 +53,4 @@ class MyString {
   } 
 
 }
-export default MyString;
+module.exports = MyString;

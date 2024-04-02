@@ -1,6 +1,6 @@
-import should from 'should';
-import Style from './style.class.js';
-import Color from './../color/color.class.js';
+const should  = require('should');
+const Style   = require('./style.class');
+const Color   = require('./../color/color.class');
 
 describe('StyleTest', () => {
   describe('getRtfReferenceColor()', () => {

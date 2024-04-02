@@ -1,6 +1,7 @@
-import should from "should";
-import Rtf from "./rtf.class.js";
-import Color from "../color/color.class.js";
+const should = require("should");
+const Rtf = require("./rtf.class");
+const Style = require("../style/style.class");
+const Color = require("../color/color.class");
 
 describe("RtfTest", () => {
   it("convertHtmlToRtf()", () => {

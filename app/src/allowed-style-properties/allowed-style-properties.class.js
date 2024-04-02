@@ -1,4 +1,4 @@
-import StyleProperties from './style-properties.module.js';
+const StyleProperties = require('./style-properties.module');
 
 class AllowedStyleProperties {
   static isTagAllowed(propertyName) {
@@ -19,6 +19,6 @@ class AllowedStyleProperties {
     return allowedTags;
   }
 }
-export default AllowedStyleProperties;
+module.exports = AllowedStyleProperties;
 
 

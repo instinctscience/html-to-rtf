@@ -1,9 +1,9 @@
-import cheerio from 'cheerio';
+const cheerio   = require('cheerio');
 const $         = cheerio.load('');
-import Color  from '../color/color.class.js';
-import Alignment from '../alignment/alignment.class.js';
-import FontSize  from '../font-size/font-size.class.js';
-import AllowedStyleProperties from '../allowed-style-properties/allowed-style-properties.class.js';
+const Color     = require('../color/color.class');
+const Alignment = require('../alignment/alignment.class');
+const FontSize  = require('../font-size/font-size.class');
+const AllowedStyleProperties = require('../allowed-style-properties/allowed-style-properties.class');
 
 class Style {
   static getRtfReferenceColor(value) {
@@ -45,4 +45,4 @@ class Style {
     return listOfRtfReferences;
   }
 }
-export default Style;
+module.exports = Style;

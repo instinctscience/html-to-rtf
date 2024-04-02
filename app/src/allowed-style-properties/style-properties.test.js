@@ -1,5 +1,5 @@
-import should from 'should';
-import StyleProperties from './style-properties.module.js';
+const should          = require('should');
+const StyleProperties = require('./style-properties.module');
 
 describe('StylePropertiesTest', () => {
   it('Length of module', () => {

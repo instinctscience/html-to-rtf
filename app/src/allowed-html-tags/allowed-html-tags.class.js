@@ -1,4 +1,4 @@
-import HtmlTags from './html-tags.module.js';
+const HtmlTags = require('./html-tags.module');
 
 class AllowedHtmlTags {
   static getRtfReferenceTag(tagName) {
@@ -12,4 +12,4 @@ class AllowedHtmlTags {
     return undefined;
   }
 }
-export default AllowedHtmlTags;
+module.exports = AllowedHtmlTags;
