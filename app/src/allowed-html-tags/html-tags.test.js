@@ -1,9 +1,9 @@
-const should   = require('should');
-const HtmlTags = require('./html-tags.module');
+import should from 'should';
+import HtmlTags from './html-tags.module.js';
 
 describe('HtmlTagsTest', () => {
   it('Length of module', () => {
-    should(HtmlTags.length).be.equal(26);
+    should(HtmlTags.length).be.equal(28);
   });
   
   HtmlTags.forEach(element => {
