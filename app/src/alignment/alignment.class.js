@@ -15,4 +15,4 @@ class Alignment {
     return alignmentReference;
   }
 }
-module.exports = Alignment;
+export default Alignment;
