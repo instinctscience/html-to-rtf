@@ -24,11 +24,9 @@
       "import": "./dist/html-to-rtf.js"
     }
   },
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.1",
-    "juice": "^4.1.0"
-  },
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "juice": "^4.1.0",
     "mocha": "10.3.0",
     "should": "^11.2.1",
     "vite": "5.1.4",
