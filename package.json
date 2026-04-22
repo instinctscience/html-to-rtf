@@ -27,7 +27,7 @@
   "devDependencies": {
     "cheerio": "^1.0.0-rc.12",
     "juice": "^4.1.0",
-    "mocha": "10.3.0",
+    "mocha": "10.8.2",
     "should": "^11.2.1",
     "vite": "5.1.4",
     "vite-plugin-node-polyfills": "0.21.0"
