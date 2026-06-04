@@ -29,7 +29,7 @@
     "juice": "^4.1.0",
     "mocha": "10.3.0",
     "should": "^11.2.1",
-    "vite": "5.1.4",
+    "vite": "6.4.2",
     "vite-plugin-node-polyfills": "0.21.0"
   },
   "scripts": {
